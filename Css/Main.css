@@ -1,0 +1,166 @@
+.header {
+    background-color: rgb(44, 43, 43);
+    font-size: 15px ;
+    color: white;
+}
+.logo {
+    font-size: 30px;
+}
+header a {
+    color: white;
+    text-decoration: none;
+}
+.navigation ul {
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    list-style: none;
+}
+.navigation ul li {
+    display: inline-block;
+}
+.navigation ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+}
+.navigation ul li a:hover {
+    background: #ccc;
+
+}
+.presentacion {
+
+    display: flex;
+    position: relative;
+    
+    
+}
+.texto {
+    padding-left: 5px auto;
+    padding-right: 5px auto;
+    font-size: 20px;
+}
+.texto p {
+   margin: 0; 
+}
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+.logo-nav-container {
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}   
+.main {
+    font-family: 'Hedvig Letters Serif', serif;
+    font-size: 23px;
+    line-height: 1.3em;
+    text-align: center;
+    margin: auto;
+    }
+body {
+    margin: 0;
+}
+.producto {
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(44, 43, 43);
+    color: white;
+    text-align: left;
+    display: flex;
+    
+}
+.producto2 {
+    display: flex;
+    
+}
+.ravioles {
+    text-align: left;
+    margin-left: 30%;
+}
+.producto3 {
+    background-color: rgb(44, 43, 43);
+    color: white;
+    text-align: left;
+    display: flex;
+}
+.canelones {
+    padding-left: 10%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.reservas {
+    text-align: left;
+    padding-left: 60%;
+}
+.footer {
+    font-size: 15px ;
+    background-color: rgb(44, 43, 43);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.titulo0 {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-size: 15px;
+}
+.titulo {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-size: 15px;
+}
+.titulo1 {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-size: 15px;
+}
+.foto2 {
+    margin-left: auto;
+    padding-top: 20px;
+}
+.foto3 {
+    padding-top: 40px;
+}
+.foto4 {
+    margin-left: auto;
+    padding-top: 20px;
+}
+@media (max-width: 900px){
+    .presentacion {
+        flex-wrap: wrap;
+        min-width: 450px;
+        font-size: 75%;
+    }
+    .producto {
+        font-size: 75%;
+        flex-wrap: wrap;
+        min-width: 400px;
+    }
+    .producto2 {
+        font-size: 75%;
+        flex-wrap: wrap;
+        min-width: 500px;
+    }
+    .producto3 {
+        font-size: 75%;
+        flex-wrap: wrap;
+        min-width: 500px;
+    }
+    .reservas {
+        font-size: 75%;
+    }
+}
